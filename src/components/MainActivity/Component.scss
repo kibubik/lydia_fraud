@@ -1,0 +1,24 @@
+main {
+    .activity {
+        display: flex;
+        padding: 5% 0;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.4);
+
+
+        >div:first-child {
+            width: 23%;
+        }
+
+        >div:last-child {
+            opacity: 0;
+        }
+    }
+
+    height: calc(75% - 8vh);
+    overflow: auto;
+
+
+
+}

@@ -1,0 +1,46 @@
+.Bar {
+    width: 20rem;
+    height: 2rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+
+    span {
+        height: 100%;
+        line-height: 2rem;
+        padding: 0 2%;
+        box-sizing: border-box;
+
+        &.value {
+            background-color: rgba(255,255,255,0.9);
+            border-bottom-style: solid;
+            border-bottom-width: 0.3rem;
+            color: black;
+            border-radius: 0 1rem 1rem 0;
+            max-width: 100%;
+            transition: all 0.5s;
+        }
+
+        &.label {
+            opacity: 0;
+            transition: all 0.35s;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            filter: blur(1px);
+            font-size: 0.7rem;
+            font-style: italic;
+        }
+    }
+
+
+    &:hover>span{
+        &.label{
+        opacity: 1;
+        filter: none;
+        }
+        &.value{
+            min-width: 0%!important;
+        }
+    }
+}

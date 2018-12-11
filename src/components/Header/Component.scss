@@ -1,0 +1,28 @@
+header{
+    display: flex;  
+    align-items: center;
+  }
+  
+  header{
+    justify-content: space-between;
+    padding-bottom: 4vh;
+    margin-bottom: 4vh;
+    border-bottom: solid 4px rgba(255,255,255,0.4);
+  
+    height: 25%;
+  }
+
+  .UserInfos {
+    overflow: hidden;
+
+    >div {
+        float: left;
+        z-index: 1;
+
+        &:nth-child(2) {
+            transform: translateX(-1rem) scale(0.8);
+            z-index: 0;
+        }
+    }
+
+}

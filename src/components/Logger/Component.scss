@@ -1,0 +1,13 @@
+.Logger{
+    width:30%;
+    height: 8rem;
+    border-radius: 0.5rem;
+    background:white;
+    color: black;
+    overflow: auto;
+    line-height: 1.3;
+
+    p{
+        margin-bottom: 0.5rem;
+    }
+}

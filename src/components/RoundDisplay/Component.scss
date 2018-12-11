@@ -1,0 +1,30 @@
+.Rounded{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: solid 2px white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: lightgray;
+    position: relative;
+    box-sizing: border-box;
+
+    span{
+        font-size: 0.8rem;
+        font-family: 'Open Sans';
+        border-radius: 7rem;
+        position: absolute;
+        left: 70%;
+        bottom: 0;
+        white-space: nowrap;
+        padding: 0.3rem;
+        min-width: 1.7rem;
+        min-height: 1.7rem;
+        color: white;
+        box-sizing: border-box;
+        font-weight: bold;
+        line-height: 1rem;
+        text-shadow: 0px 0px 7px rgba(0,0,0,0.61);
+    }
+}
